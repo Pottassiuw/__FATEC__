@@ -51,13 +51,26 @@ def inicio_final(a, b):
 # Verifique quantos zeros há no final de um número inteiro positivo
 # Exemplo: 10010 tem 1 zero no fim e 908007000 possui três
 def zf(n):
-  return
+  n_f = str(n)[::-1]
+  c = 0
+  for i in n_f:
+    if i =='0':
+      c +=1
+    else:
+      break
+  return c
 
 # K. conta 2
 # Verifique quantas vezes o dígito 2 aparece entre 0 e n-1
 # Exemplo: para n = 20 o dígito 2 aparece duas vezes entre 0 e 19
 def conta2(n):
-  return
+  n_f = str(n) 
+  c = 0
+  for i in n_f:
+    if i == "2":
+      c +=1
+
+  return c
 
 # L. inicio em potencia de 2
 # Dado um número inteiro positivo n retorne a primeira potência de 2
