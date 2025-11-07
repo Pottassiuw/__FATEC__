@@ -4,7 +4,6 @@
 #     yield 42
 #     yield 'fim'
 
-
 # x = f()
 
 # print(next(x))
