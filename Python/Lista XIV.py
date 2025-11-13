@@ -50,17 +50,19 @@ def derivada(coef):
 # [3, 1, 5] + [5, 9, 2] = [8, 0, 8]
 # pode supor que n1 e n2 tem o mesmo número de dígitos
 # Não vale converter a lista em número para somar diretamente
-
 def soma(n1, n2):
+    n1_r = n1[::-1]
+    n2_r = n2[::-1]
+    
     s = []
-    resto_um = 0
-    for i in range(len(n1)):
-        soma_atual = n1[i] + n2[i] + resto_um
-        s.append(soma_atual % 10)
-        resto_um = soma_atual // 10
-    if resto_um > 0:
-        s.append(resto_um)
-    return s
+    for idx_n1, val_n1 in enumerate(n1_r):
+        for idx_n2, val_n2 in enumerate(n2_r):
+            if val_n1 + val_n2 >= 10:
+                s_val = val_n1 + val_n2
+                s_val = list(s_val)
+                n2_r[idx_n2 + 1] = s_val[0] 
+                print(n2_r)
+
 # H. Anagrama
 # Verifique se duas palavras são anagramas,
 # isto é, uma palavra é permutação das letras da outra
@@ -69,9 +71,7 @@ def soma(n1, n2):
 # anagrama('amor', 'ramo') = True
 # anagrama('aba', 'baba') = False
 def anagrama(s1, s2):
-  if sorted(s1) == sorted(s2):
-    return True
-  return False
+  return
 
 def test(obtido, esperado):
   if obtido == esperado:

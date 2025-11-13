@@ -2,10 +2,8 @@
 # Copyright 2010 Google Inc.
 # Licensed under the Apache License, Version 2.0
 # http://www.apache.org/licenses/LICENSE-2.0
-
 # Google's Python Class
 # http://code.google.com/edu/languages/google-python-class/
-
 # A. fim_igual
 # Dada uma lista de strings, retorna o número de strings
 # com tamanho >= 2 onde o primeiro e o último caracteres são iguais
@@ -17,22 +15,27 @@ def fim_igual(words):
             if i[0] == i[-1]:
                 c +=1
     return c
-
 # B. x_antes
 # Dada uma lista de strings retorna uma lista onde
 # todos os elementos que começam com x ficam sorteados antes 
 # Ex.: ['mix', 'xyz', 'apple', 'xanadu', 'aardvark'] retorna
 # ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
 # Obs.: é necessário que cada lista esteja em ordem antes
-# de juntar, a que tem strings que começam com x e a que não
+# de juntar1, a que tem strings que começam com x e a que não
 # Dica: monte duas listas separadas e junte-as no final
 def x_antes(words):
-
-  return 
+    words.sort()
+    reversed_words=[]
+    new_list = []
+    for i in words:
+        if i.startswith("x"):
+            reversed_words.append(i)
+        else:
+            new_list.append(i)
+    return reversed_words + new_list
 
 def last(a): #esta def serve para a letra C
-  return 
-
+    return a[-1]
 # C. sort_last
 # Dada uma lista de tuplas não vazias retorna uma tupla ordenada
 # por ordem crescente do último elemento 
@@ -40,8 +43,8 @@ def last(a): #esta def serve para a letra C
 # [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
 # Dica: use key=função que você definiu e que retorna o último elemento
 def sort_last(tuples):
-  return 
-
+    tuples.sort(key=last)
+    return tuples
 def test(obtido, esperado):
   if obtido == esperado:
     prefixo = ' Parabéns!'
