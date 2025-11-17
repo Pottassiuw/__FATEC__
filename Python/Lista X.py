@@ -32,7 +32,7 @@ def lone_sum(a, b, c):
      return a
    else:
      return a + b + c
-   
+
 # C. luck_sum #
 # Soma três inteiros a, b, c
 # Se aparecer um 13 ele não conta e todos os da

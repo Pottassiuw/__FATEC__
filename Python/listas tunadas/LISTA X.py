@@ -15,7 +15,6 @@ def divisivel_por_sete(n):
         return True
     return False
 
-
 # B. maior_unico
 # Dados três números inteiros a, b, c
 # retorna o maior número que aparece apenas uma vez
@@ -25,6 +24,7 @@ def divisivel_por_sete(n):
 # maior_unico(3, 2, 3) -> 2
 # maior_unico(3, 3, 3) -> 0
 def maior_unico(a, b, c):
+    
     return
 
 
