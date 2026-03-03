@@ -1,4 +1,4 @@
-Prof: Eliane Mergulhão (Lindinha)
+**Prof**: Eliane Mergulhão (Lindinha)
 
 1. Conscientização da importância da leitura e escrita -> fonte de conhecimento;
 2. Diferentes Linguagens -> Verbal e não verbal;
