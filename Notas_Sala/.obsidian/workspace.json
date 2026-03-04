@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fc6adc2807693b7b",
+        "id": "038b65105fcf353e",
         "type": "tabs",
         "children": [
           {
-            "id": "2f25900ce23d1481",
+            "id": "29bfa5e6c918a2ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "Estrutura de Dados.canvas",
+                "viewState": {
+                  "x": -3394.726184021446,
+                  "y": 223.68183475611272,
+                  "zoom": -1.3857219324542882
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Estrutura de Dados"
             }
           }
         ]
@@ -49,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "OOP",
+                "query": "tag:#DTA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "857fc4a13324a434",
@@ -123,7 +129,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -151,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguagem de Programação/Java.md",
+                "file": "Estrutura de Dados.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Java"
+              "title": "Outline of Estrutura de Dados"
             }
           },
           {
@@ -190,10 +196,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f25900ce23d1481",
+  "active": "29bfa5e6c918a2ec",
   "lastOpenFiles": [
-    "Articles/Data Structures.md",
+    "Binary searching.webp",
     "Estrutura de Dados.canvas",
+    "Pasted image 20260303213309.jpg",
+    "Linguagem de Programação/Java.md",
+    "Linear-Search-algorithm-banner-(1) 1.webp",
+    "Linear-Search-algorithm-banner-(1).webp",
+    "Articles/Data Structures.md",
     "Articles",
     "Clippings",
     "árvore_binária.webp",
@@ -201,7 +212,6 @@
     "Pasted image 20260224194046.png",
     "Pasted image 20260224192156.png",
     "Pasted image 20260224191620.png",
-    "Linguagem de Programação/Java.md",
     "Excalidraw/Drawing 2026-03-03 18.03.57.excalidraw.md",
     "Excalidraw/Drawing 2026-03-03 18.00.36.excalidraw.md",
     "Excalidraw/Drawing 2026-03-03 18.00.35.excalidraw.md",
