@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "038b65105fcf353e",
+        "id": "2a389d1bf78420e6",
         "type": "tabs",
         "children": [
           {
-            "id": "29bfa5e6c918a2ec",
+            "id": "66e147a8b1aea064",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Estrutura de Dados.canvas",
-                "viewState": {
-                  "x": -3394.726184021446,
-                  "y": 223.68183475611272,
-                  "zoom": -1.3857219324542882
-                }
+                "file": "2026-03-10 Backlog Fawkes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Estrutura de Dados"
+              "icon": "lucide-file",
+              "title": "2026-03-10 Backlog Fawkes"
             }
           }
         ]
@@ -81,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 280.0026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "857fc4a13324a434",
@@ -196,21 +194,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29bfa5e6c918a2ec",
+  "active": "66e147a8b1aea064",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-03-10 22.46.04.excalidraw.md",
+    "2026-03-10 Backlog Fawkes.md",
+    "8UKXIHN9SABRKJH47PZNHJ48II2MAY.PDF",
+    "árvore genealógica.jpg",
+    "árvore_binária.webp",
     "Binary searching.webp",
+    "Linear-Search-algorithm-banner-(1).webp",
+    "Pasted image 20260224192156.png",
+    "Pasted image 20260224194046.png",
+    "Untitled.md",
+    "Untitled.base",
     "Estrutura de Dados.canvas",
     "Pasted image 20260303213309.jpg",
     "Linguagem de Programação/Java.md",
     "Linear-Search-algorithm-banner-(1) 1.webp",
-    "Linear-Search-algorithm-banner-(1).webp",
     "Articles/Data Structures.md",
     "Articles",
     "Clippings",
-    "árvore_binária.webp",
-    "árvore genealógica.jpg",
-    "Pasted image 20260224194046.png",
-    "Pasted image 20260224192156.png",
     "Pasted image 20260224191620.png",
     "Excalidraw/Drawing 2026-03-03 18.03.57.excalidraw.md",
     "Excalidraw/Drawing 2026-03-03 18.00.36.excalidraw.md",
@@ -220,7 +223,6 @@
     "Excalidraw",
     "Linguagem de Programação",
     "Cálculo",
-    "Untitled.md",
     "Comunicação e Expressão",
     "Aula de Banco de dados S.I.md"
   ]
